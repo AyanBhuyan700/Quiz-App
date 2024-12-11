@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #001e4d;
+}
+
+.main {
+    background: white;
+    color: #001e4d;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    display: none;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.startBtn {
+    background: white;
+    color: #222;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    width: 40%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#value {
+    color: #001e4d;
+}
+
+.btn:hover {
+    background: #222;
+    color: white;
+}
+
+.startBtn:hover {
+    background: #222;
+    color: white;
+}
+
+.change-btn {
+    display: flex;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: none;
+}
+
+#submit-btn {
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: none;
+}
+
+
+.btn.selected {
+    background-color: #222;
+    color: white;
+}
+.correct {
+    background-color: rgb(105, 235, 105);
+}
+.incorrect {
+    background-color: rgb(238, 126, 126);
+}
